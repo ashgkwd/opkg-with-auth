@@ -109,6 +109,7 @@ static opkg_option_t options[] = {
     {"ssl_dont_verify_peer", OPKG_OPT_TYPE_BOOL, &_conf.ssl_dont_verify_peer},
     {"ftp_explicit_ssl", OPKG_OPT_TYPE_BOOL, &_conf.ftp_explicit_ssl},
 #endif
+    {"auth_credentials", OPKG_OPT_TYPE_STRING, &_conf.auth_credentials},
     {NULL, 0, NULL}
 };
 
